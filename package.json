@@ -1,0 +1,24 @@
+{
+  "name": "auth-example",
+  "version": "1.0.0",
+  "description": "Just an example using bcrypt of auth stuff",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdboop/auth-example.git"
+  },
+  "author": "mdboop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdboop/auth-example/issues"
+  },
+  "homepage": "https://github.com/mdboop/auth-example#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1"
+  }
+}
