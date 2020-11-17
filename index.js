@@ -17,6 +17,10 @@ app.get("/", (req, res) => {
   res.send("Hello, stranger!")
 })
 
+app.get("/api/inspect", (req, res) => {
+  return res.json(database)
+})
+
 app.post("/api/login", async (req, res) => {
   const { username, password } = req.body
 

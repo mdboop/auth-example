@@ -26,3 +26,11 @@ curl --header "Content-Type: application/json" \
   --data '{"username":"mdboop","password":"wow terrible password"}' \
   http://localhost:3000/api/login
 ```
+
+### Inspect
+
+Why not just send the whole database with our hashed passwords to anyone who asks? Here's a way to look at what's been saved to our "database".
+
+```bash
+curl http://localhost:3000/api/inspect
+```
