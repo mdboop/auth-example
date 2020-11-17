@@ -2,7 +2,7 @@ const express = require("express")
 const bcrypt = require("bcrypt")
 
 const PORT = 3000
-const SALT_ROUNDS = 3
+const SALT_ROUNDS = 10
 
 // Let's pretend this is our database.
 const database = {}
